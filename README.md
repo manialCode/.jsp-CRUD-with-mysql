@@ -1,6 +1,4 @@
-# README
-
-## TPIntegrador_Grupo8.V48
+# TPIntegrador_Grupo8.V48
 
 Este proyecto es una aplicación web para la gestión de clientes, cuentas, préstamos, movimientos y transferencias bancarias. Está desarrollado en Java utilizando servlets y JSP, siguiendo una arquitectura MVC.
 
