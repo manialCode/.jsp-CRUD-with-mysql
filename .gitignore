@@ -1,0 +1,78 @@
+# Archivos y directorios de IDE (Entornos de Desarrollo Integrado)
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.gradle/
+build/
+
+# Eclipse
+.classpath
+.project
+.settings/
+target/   # Maven build directory
+.apt_generated/
+.factorypath
+.metadata/
+
+# VS Code
+.vscode/
+
+# Archivos de construcción y dependencias
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+*.rar
+*.class
+
+# Dependencias de Maven/Gradle
+/target/
+/build/
+/lib/
+/repository/
+
+# Dependencias de Maven
+/m2/repository/
+
+# Archivos de log
+*.log
+logs/
+*.txt # Puede ser demasiado amplio, sé más específico si tienes otros .txt importantes
+*.tmp
+
+# Archivos de configuración locales y sensibles
+# Evita subir credenciales de base de datos, API keys, etc.
+*.properties
+*.xml
+*.yml
+*.yaml
+*.conf
+*.key
+*.pem
+*.jks
+*.p12
+
+# Archivos de Tomcat / Servidores de aplicaciones (directorios de despliegue)
+/webapps/           # Si el proyecto se despliega directamente aquí
+/work/              # Directorio de trabajo de Tomcat
+/temp/              # Directorio temporal de Tomcat
+/logs/              # Logs del servidor
+/catalina.out       # Archivo de log principal de Tomcat
+# Otros directorios de despliegue comunes
+/dist/
+/bin/
+
+# Sistema operativo y archivos temporales
+.DS_Store           # macOS
+Thumbs.db           # Windows
+Desktop.ini         # Windows
+ehthumbs.db         # Windows
+*.swp               # Vim swap files
+*~                  # Backup files created by some editors
+.#* # Emacs lock files
