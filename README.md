@@ -1,4 +1,4 @@
-# TPIntegrador_Grupo8.V48
+# CRUD .jsp y apache
 
 Este proyecto es una aplicación web para la gestión de clientes, cuentas, préstamos, movimientos y transferencias bancarias. Está desarrollado en Java utilizando servlets y JSP, siguiendo una arquitectura MVC.
 
